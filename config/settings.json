@@ -1,0 +1,23 @@
+{
+    "browser": {
+        "driver_type": "chrome",
+        "headless": false,
+        "window_width": 1920,
+        "window_height": 1080,
+        "page_load_timeout": 30
+    },
+    "mouse": {
+        "movement_speed": 1.0,
+        "click_delay_min": 0.1,
+        "click_delay_max": 0.5,
+        "randomize_position": true,
+        "max_position_offset": 5
+    },
+    "automation": {
+        "screenshot_dir": "static/screenshots",
+        "log_dir": "static/logs",
+        "default_timeout": 10,
+        "retry_attempts": 3,
+        "anti_detection": true
+    }
+}

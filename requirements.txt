@@ -1,0 +1,11 @@
+selenium==4.15.0
+pyautogui==0.9.54
+opencv-python==4.8.1.78
+pillow==10.0.1
+numpy==1.25.2
+pynput==1.7.6
+configparser==6.0.0
+loguru==0.7.2
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.2
+requests==2.31.0

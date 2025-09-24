@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "BookBolt Studio click areas configuration - Complete version",
+    "last_updated": "2024-01-15",
+    "target_url": "https://studio.bookbolt.io/",
+    "total_areas": 24
+  },
+  "screen_settings": {
+    "browser_position": "left",
+    "browser_width_fraction": 0.67,
+    "browser_height_fraction": 1.0
+  },
+  "areas": {
+    "area_1": {
+      "name": "Prima Area",
+      "coordinates": [19, 149, 63, 177],
+      "description": "Prima area di click",
+      "category": "navigation"
+    },
+    "area_2": {
+      "name": "Seconda Area",
+      "coordinates": [17, 243, 61, 268],
+      "description": "Seconda area di click",
+      "category": "navigation"
+    },
+    "area_3": {
+      "name": "Terza Area",
+      "coordinates": [412, 384, 842, 403],
+      "description": "Terza area di click - Template input",
+      "category": "input"
+    },
+    "area_4": {
+      "name": "Area 4",
+      "coordinates": [573, 455, 843, 461],
+      "description": "Quarta area di click - Confirm button",
+      "category": "button"
+    },
+    "area_5": {
+      "name": "Area 5",
+      "coordinates": [20, 152, 56, 175],
+      "description": "Quinta area di click",
+      "category": "navigation"
+    },
+    "area_6": {
+      "name": "Area 6",
+      "coordinates": [15, 281, 49, 303],
+      "description": "Sesta area di click",
+      "category": "navigation"
+    },
+    "area_7": {
+      "name": "Area 7",
+      "coordinates": [447, 197, 785, 214],
+      "description": "Settima area di click - Dynamic text input",
+      "category": "input"
+    },
+    "area_8": {
+      "name": "Area 8",
+      "coordinates": [779, 256, 833, 275],
+      "description": "Ottava area di click - OK button",
+      "category": "button"
+    },
+    "area_9": {
+      "name": "Area 9",
+      "coordinates": [782, 204, 829, 223],
+      "description": "Nona area di click - Open notebook",
+      "category": "button"
+    },
+    "area_10": {
+      "name": "Area 10",
+      "coordinates": [17, 335, 31, 368],
+      "description": "Image icon area",
+      "category": "button"
+    },
+    "area_11": {
+      "name": "Area 11",
+      "coordinates": [970, 254, 1055, 268],
+      "description": "Click on Combo box area",
+      "category": "input"
+    },
+    "area_11_1": {
+      "name": "Area 11_1",
+      "coordinates": [970, 191 , 1002, 200],
+      "description": "Select top option in combo box (above the field)",
+      "category": "button"
+    },
+    "area_11_2": {
+      "name": "Area 11_2",
+      "coordinates": [970, 254, 1055, 268],
+      "description": "Click again on Combo box area",
+      "category": "button"
+    },
+    "area_12": {
+      "name": "Area 12",
+      "coordinates": [972, 322, 1029, 331],
+      "description": "Select bottom item in the combo (not used)",
+      "category": "button"
+    },
+    "area_13": {
+      "name": "Area 13",
+      "coordinates": [94, 355, 143, 409],
+      "description": "First image selection",
+      "category": "button"
+    },
+    "area_14": {
+      "name": "Area 14",
+      "coordinates": [477, 209, 491, 221],
+      "description": "Position button",
+      "category": "button"
+    },
+    "area_15": {
+      "name": "Area 15",
+      "coordinates": [476, 361, 556, 380],
+      "description": "Left center position",
+      "category": "input"
+    },
+    "area_16": {
+      "name": "Area 16",
+      "coordinates": [648, 362, 692, 381],
+      "description": "Top center position",
+      "category": "input"
+    },
+    "area_17": {
+      "name": "Area 17",
+      "coordinates": [477, 444, 556, 462],
+      "description": "Width input field",
+      "category": "input"
+    },
+    "area_18": {
+      "name": "Area 18",
+      "coordinates": [638, 443, 697, 459],
+      "description": "Height input field",
+      "category": "input"
+    },
+    "area_19": {
+      "name": "Area 19",
+      "coordinates": [733, 632, 756, 646],
+      "description": "OK button for position",
+      "category": "button"
+    },
+    "area_20": {
+      "name": "Area 20",
+      "coordinates": [1253, 242, 1259, 255],
+      "description": "Send to back option 1",
+      "category": "button"
+    },
+    "area_21": {
+      "name": "Area 21",
+      "coordinates": [1096, 519, 1141, 528],
+      "description": "Send to back option 2",
+      "category": "button"
+    },
+    "area_22": {
+      "name": "Area 22",
+      "coordinates": [1253, 242, 1259, 255],
+      "description": "Send to back option 3",
+      "category": "button"
+    },
+    "area_23": {
+      "name": "Area 23",
+      "coordinates": [1096, 519, 1141, 528],
+      "description": "Send to back option 4",
+      "category": "button"
+    },
+    "area_24": {
+      "name": "Area 24",
+      "coordinates": [400, 600, 500, 650],
+      "description": "Final click on screen area",
+      "category": "button"
+    }
+  },
+  "validation": {
+    "coordinate_format": "Array of 4 integers [x1, y1, x2, y2]",
+    "required_fields": ["name", "coordinates", "description", "category"],
+    "valid_categories": ["navigation", "input", "button", "menu", "form"],
+    "coordinate_validation": {
+      "min_x": 0,
+      "min_y": 0,
+      "max_x": 2000,
+      "max_y": 1500
+    }
+  },
+  "action_types": {
+    "supported_actions": [
+      "click_area",
+      "select_all", 
+      "type_text",
+      "type_dynamic_text",
+      "copy_graphic",
+      "paste_graphic",
+      "press_key",
+      "wait"
+    ],
+    "timing_parameters": {
+      "wait_min": "Minimum wait time after action (seconds)",
+      "wait_max": "Maximum wait time after action (seconds)"
+    }
+  }
+}

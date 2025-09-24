@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "BookBolt Studio action sequences configuration",
+    "last_updated": "2024-01-01",
+    "target_application": "BookBolt Studio"
+  },
+  "sequences": {
+    "template_creation_workflow": {
+      "name": "Complete BookBolt Template Creation Workflow",
+      "description": "Full workflow for creating template with dynamic text, graphics, and positioning",
+      "category": "main_workflow",
+      "estimated_duration": "2-3 minutes",
+      "actions": [
+        {
+          "step": 1,
+          "type": "click_area",
+          "area": "area_1",
+          "description": "Initial navigation click",
+          "wait_min": 0.8,
+          "wait_max": 1.5
+        },
+        {
+          "step": 2,
+          "type": "click_area",
+          "area": "area_2",
+          "description": "Second navigation click",
+          "wait_min": 1.5,
+          "wait_max": 2.5
+        },
+        {
+          "step": 3,
+          "type": "click_area",
+          "area": "area_3",
+          "description": "Click main input area",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 4,
+          "type": "select_all",
+          "description": "Select existing text",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 5,
+          "type": "type_text",
+          "text": "Template",
+          "description": "Type 'Template' text",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 6,
+          "type": "click_area",
+          "area": "area_4",
+          "description": "Click confirmation button",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 7,
+          "type": "click_area",
+          "area": "area_5",
+          "description": "Navigate to area 5",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 8,
+          "type": "click_area",
+          "area": "area_6",
+          "description": "Navigate to area 6",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 9,
+          "type": "click_area",
+          "area": "area_7",
+          "description": "Click on text input area",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 10,
+          "type": "select_all",
+          "description": "Select all text in field",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 11,
+          "type": "type_dynamic_text",
+          "description": "Type dynamic text content",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 12,
+          "type": "click_area",
+          "area": "area_8",
+          "description": "Click OK button",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 13,
+          "type": "click_area",
+          "area": "area_9",
+          "description": "Open notebook",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 14,
+          "type": "click_area",
+          "area": "area_10",
+          "description": "Click image icon",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 15,
+          "type": "click_area",
+          "area": "area_11",
+          "description": "Click combo box",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 16,
+          "type": "click_area",
+          "area": "area_11_1",
+          "description": "Select top option in combo box",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 17,
+          "type": "click_area",
+          "area": "area_11_2",
+          "description": "Secondary combo box click",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 18,
+          "type": "click_area",
+          "area": "area_12",
+          "description": "Select item",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 19,
+          "type": "click_area",
+          "area": "area_13",
+          "description": "Select first image",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 20,
+          "type": "click_area",
+          "area": "area_14",
+          "description": "Click position button",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 21,
+          "type": "click_area",
+          "area": "area_15",
+          "description": "Click left center position",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 22,
+          "type": "select_all",
+          "description": "Select position X value",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 23,
+          "type": "type_text",
+          "text": "30,29",
+          "description": "Set X position to 30,29",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 24,
+          "type": "click_area",
+          "area": "area_16",
+          "description": "Click top center position",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 25,
+          "type": "select_all",
+          "description": "Select position Y value",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 26,
+          "type": "type_text",
+          "text": "12,06",
+          "description": "Set Y position to 12,06",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 27,
+          "type": "click_area",
+          "area": "area_17",
+          "description": "Click width field",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 28,
+          "type": "select_all",
+          "description": "Select width value",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 29,
+          "type": "type_text",
+          "text": "18,43",
+          "description": "Set width to 18,43",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 30,
+          "type": "click_area",
+          "area": "area_18",
+          "description": "Click height field",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 31,
+          "type": "select_all",
+          "description": "Select height value",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 32,
+          "type": "type_text",
+          "text": "24,47",
+          "description": "Set height to 24,47",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 33,
+          "type": "click_area",
+          "area": "area_19",
+          "description": "Click OK button to confirm dimensions",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 34,
+          "type": "copy_graphic",
+          "description": "Copy the graphic element",
+          "wait_min": 0.5,
+          "wait_max": 1.0
+        },
+        {
+          "step": 35,
+          "type": "paste_graphic",
+          "description": "Paste the graphic element",
+          "wait_min": 1.0,
+          "wait_max": 2.0
+        },
+        {
+          "step": 36,
+          "type": "click_area",
+          "area": "area_14",
+          "description": "Click position button for pasted element",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 37,
+          "type": "click_area",
+          "area": "area_15",
+          "description": "Click left center position for pasted element",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 38,
+          "type": "select_all",
+          "description": "Select X position for pasted element",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 39,
+          "type": "type_text",
+          "text": "9,07",
+          "description": "Set X position to 9,07 for pasted element",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 40,
+          "type": "click_area",
+          "area": "area_16",
+          "description": "Click top center for pasted element",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 41,
+          "type": "select_all",
+          "description": "Select Y position for pasted element",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 42,
+          "type": "type_text",
+          "text": "12,06",
+          "description": "Set Y position to 12,06 for pasted element",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 43,
+          "type": "click_area",
+          "area": "area_17",
+          "description": "Click width field for pasted element",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 44,
+          "type": "select_all",
+          "description": "Select width value for pasted element",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 45,
+          "type": "type_text",
+          "text": "18,43",
+          "description": "Set width to 18,43 for pasted element",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 46,
+          "type": "click_area",
+          "area": "area_18",
+          "description": "Click height field for pasted element",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 47,
+          "type": "select_all",
+          "description": "Select height value for pasted element",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 48,
+          "type": "type_text",
+          "text": "24,47",
+          "description": "Set height to 24,47 for pasted element",
+          "wait_min": 0.5,
+          "wait_max": 1.2
+        },
+        {
+          "step": 49,
+          "type": "click_area",
+          "area": "area_19",
+          "description": "Click OK button to confirm pasted element dimensions",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 50,
+          "type": "click_area",
+          "area": "area_20",
+          "description": "Click send to back option",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 51,
+          "type": "click_area",
+          "area": "area_21",
+          "description": "Additional send to back action",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 52,
+          "type": "click_area",
+          "area": "area_22",
+          "description": "Third send to back action",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 53,
+          "type": "click_area",
+          "area": "area_23",
+          "description": "Fourth send to back action",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        },
+        {
+          "step": 54,
+          "type": "click_area",
+          "area": "area_24",
+          "description": "Final click on screen to complete workflow",
+          "wait_min": 0.7,
+          "wait_max": 1.3
+        }
+      ]
+    },
+    "quick_template_setup": {
+      "name": "Quick Template Setup",
+      "description": "Simplified template creation for testing",
+      "category": "testing",
+      "estimated_duration": "8-12 seconds",
+      "actions": [
+        {
+          "step": 1,
+          "type": "click_area",
+          "area": "area_3",
+          "description": "Click main input area",
+          "wait_min": 0.5,
+          "wait_max": 1.0
+        },
+        {
+          "step": 2,
+          "type": "type_text",
+          "text": "Quick Template",
+          "description": "Type quick template name",
+          "wait_min": 0.3,
+          "wait_max": 0.8
+        },
+        {
+          "step": 3,
+          "type": "click_area",
+          "area": "area_4",
+          "description": "Confirm template creation",
+          "wait_min": 0.5,
+          "wait_max": 1.0
+        }
+      ]
+    },
+    "navigation_test": {
+      "name": "Navigation Test Sequence",
+      "description": "Test all navigation areas for UI mapping",
+      "category": "testing",
+      "estimated_duration": "10-15 seconds",
+      "actions": [
+        {
+          "step": 1,
+          "type": "click_area",
+          "area": "area_1",
+          "description": "Test area 1",
+          "wait_min": 1.0,
+          "wait_max": 1.5
+        },
+        {
+          "step": 2,
+          "type": "click_area",
+          "area": "area_2", 
+          "description": "Test area 2",
+          "wait_min": 1.0,
+          "wait_max": 1.5
+        },
+        {
+          "step": 3,
+          "type": "click_area",
+          "area": "area_5",
+          "description": "Test area 5",
+          "wait_min": 1.0,
+          "wait_max": 1.5
+        },
+        {
+          "step": 4,
+          "type": "click_area",
+          "area": "area_6",
+          "description": "Test area 6", 
+          "wait_min": 1.0,
+          "wait_max": 1.5
+        }
+      ]
+    }
+  },
+  "action_types": {
+    "click_area": {
+      "description": "Click randomly within a defined area",
+      "required_fields": ["area"],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "type_text": {
+      "description": "Type specific text with natural human-like timing", 
+      "required_fields": ["text"],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "type_dynamic_text": {
+      "description": "Type dynamic text content (loaded from external source or user input)",
+      "required_fields": [],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "select_all": {
+      "description": "Select all text (Ctrl+A / Cmd+A)",
+      "required_fields": [],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "copy_graphic": {
+      "description": "Copy selected graphic element (Ctrl+C / Cmd+C)",
+      "required_fields": [],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "paste_graphic": {
+      "description": "Paste copied graphic element (Ctrl+V / Cmd+V)",
+      "required_fields": [],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "press_key": {
+      "description": "Press a specific key",
+      "required_fields": ["key"],
+      "optional_fields": ["wait_min", "wait_max", "description"]
+    },
+    "wait": {
+      "description": "Explicit wait with natural variation",
+      "required_fields": ["seconds"],
+      "optional_fields": ["description"]
+    }
+  },
+  "validation": {
+    "required_sequence_fields": ["name", "description", "category", "actions"],
+    "required_action_fields": ["step", "type"],
+    "valid_action_types": ["click_area", "type_text", "type_dynamic_text", "select_all", "copy_graphic", "paste_graphic", "press_key", "wait"],
+    "valid_categories": ["main_workflow", "testing", "setup", "cleanup"],
+    "timing_format": "Float values in seconds for wait_min and wait_max"
+  }
+}
